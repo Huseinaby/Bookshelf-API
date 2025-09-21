@@ -45,3 +45,13 @@ Follow these steps to get the project running on your local machine.
     npm run start
     ```
     The API will be available at `http://localhost:5000`.
+
+## API Endpoints
+
+| Method   | Endpoint           | Description                                      |
+| :------- | :------------------| :----------------------------------------------- |
+| `POST`   | `/books`           | Add New Book                                     |
+| `GET`    | `/books`           | Get All Books                                    |
+| `GET`    | `/books/{id}`      | Get Book by ID                                   |
+| `PUT`    | `/books/{id}`      | Update Book by ID                                |
+| `DELETE` | `/books/{id}`      | Delete Book by ID                                |
